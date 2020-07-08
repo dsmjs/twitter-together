@@ -4,3 +4,19 @@ repository:
   description: A repository to compose tweets together for @desmoinesjs
   homepage: 'https://twitter.com/desmoinesjs'
   private: false
+
+branches:
+  - name: master
+    protection:
+      required_pull_request_reviews:
+        required_approving_review_count: 1
+        dismiss_stale_reviews: true
+        require_code_owner_reviews: true
+        dismissal_restrictions:
+          users: []
+          teams:
+            - '@dsmjs/leads'
+      required_status_checks: null
+      restrictions: null
+      enforce_admins: true
+
