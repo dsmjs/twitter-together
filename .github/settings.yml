@@ -15,7 +15,7 @@ branches:
         dismissal_restrictions:
           users: []
           teams:
-            - '@dsmjs/leads'
+            - leads
       required_status_checks: null
       restrictions: null
       enforce_admins: true
