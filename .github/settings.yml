@@ -1,4 +1,5 @@
 _extends: .github
+
 repository:
   name: twitter-together
   description: A repository to compose tweets together for @desmoinesjs
