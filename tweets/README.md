@@ -2,11 +2,7 @@
 
 To create a new tweet create a new `*.tweet` file in this `tweets/` folder.
 
-<!--lint disable -->
-
 <kbd>[Create new tweet](../../../new/master/?filename=tweets/<your-path>.tweet)</kbd>
-
-<!--lint enable -->
 
 ## Example
 
