@@ -1,6 +1,7 @@
 # twitter-together
 
 A repository to compose tweets together for [@desmoinesjs](https://twitter.com/desmoinesjs)
+using [twitter-together](https://github.com/gr2m/twitter-together)
 
 <!--status-badges start -->
 
