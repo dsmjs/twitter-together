@@ -4,7 +4,7 @@
   "license": "MIT",
   "repository": "dsmjs/twitter-together",
   "bugs": "https://github.com/dsmjs/twitter-together/issues",
-  "homepage": "https://github.com/dsmjs/twitter-together#readme",
+  "homepage": "https://twitter.com/desmoinesjs",
   "author": "dsmJS <maintainers@dsmjs.com> (https://dsmjs.com)",
   "scripts": {
     "test": "npm-run-all --print-label --parallel lint:*",
