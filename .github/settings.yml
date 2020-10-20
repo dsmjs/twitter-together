@@ -5,6 +5,7 @@ repository:
   description: A repository to compose tweets together for @desmoinesjs
   homepage: 'https://twitter.com/desmoinesjs'
   private: false
+  topics: hacktoberfest
 
 branches:
   - name: master
