@@ -12,7 +12,8 @@
     "lint:md": "remark . --frail",
     "generate:md": "remark . --output",
     "lint:sensitive": "ban",
-    "lint:peer": "npm ls >/dev/null"
+    "lint:peer": "npm ls >/dev/null",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@dsmjs/remark-preset-lint": "1.0.15",
