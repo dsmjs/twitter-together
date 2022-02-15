@@ -15,7 +15,8 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v1
         with:
-          node-version: 12.x
+          cache: npm
+          node-version-file: '.nvmrc'
       - uses: bahmutov/npm-install@v1
       - run: npm test
 
