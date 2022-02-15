@@ -13,11 +13,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Setup node
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2
         with:
           cache: npm
           node-version-file: '.nvmrc'
-      - uses: bahmutov/npm-install@v1
+      - run: npm clean-install
       - run: npm test
 
   automerge:
